@@ -1,0 +1,5 @@
+print(4>3 or 2<1)
+print(4>3 and 2<1)
+print(4>3 and 2>1)
+print(not 4>3)
+print( 4==3 )
