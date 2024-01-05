@@ -18,3 +18,5 @@ print('TASHIN' in name)
 print('P' in name)
 
 
+name = "TASHIN"
+print(name*5) # Tashin 5 time's
