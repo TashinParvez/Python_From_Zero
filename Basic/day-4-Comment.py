@@ -9,8 +9,8 @@ def my_function(arg1, arg2):
 
     Returns:
         The result of the function.
-    """
-    pass
+    """ 
+    # multi line string works as a ulti line comment
 
 
 #-------------------------------------------------------------------> style: 2
