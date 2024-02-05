@@ -19,13 +19,31 @@ print("value",a , end="\t")
 print("value",a ) 
 
 
-#formated String
+# print without new line
+
+print("Hello", end='>')
+print("World")
+
+print("Hello", end='')
+print("World")
+
+print("Hello", end=' ')
+print("World")
+
+
+
+## Formatting the string
+
+# WAY 1 : (Dot format Approach)
+
 val1,val2 = 10,20
 address = "this is my road num {} and this is my house num {}".format(val1,val2)  ## {} -> will be replaced by the format values
 print(address)
 
+
 print("value1 = {1} , Value2 = {0}".format(val1, val2))
 print("value1 = {0} , Value2 = {1}".format(val1, val2))
+
 
 print("Road = {Road} , House = {House}".format(Road= val1, House= val2))
 print("House = {House} , Road = {Road}".format(Road= val1, House= val2))
@@ -47,3 +65,22 @@ print("formate = {:012.05f}".format(num))
 
 
 '''
+
+
+
+# WAY 2 : (f Approach)
+
+a = 15
+
+# "The value of a is 15"
+print("The value of a is", a)  # normal print as print multiple objects 
+
+# "The value of a = 15"
+print("The value of a = {a}")   # just take as a string
+
+print(f"The value of a = {a}")  # formate the string 
+
+print(f"This is a+b = {a+b}")
+
+
+
