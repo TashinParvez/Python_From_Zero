@@ -1,11 +1,11 @@
 # Single Line
 a = 10
 
-# Multiple line
+# Multiple line ( \ -> used for next line )
 a = 12; b =12
 
 
-c = a + b\
+c = a + b\           
     + 10
 
 

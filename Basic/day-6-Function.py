@@ -1,12 +1,14 @@
 """
 -> In build Func
         int(), str(),float()
+
 -> module Func
 
 -> User Defined Func
 """
 
-#------------------------> Module Func Examples
+#----------------------------------> Module Func Examples
+
 import math
 # print(dir(math)) # print all math func's
 
@@ -15,15 +17,41 @@ from math import sqrt
 print(sqrt(25))
 
 
-#------------------------> User Defined Func
+#-------------------------------------------------------------------> User Defined Func
 
-def funcName(a, b):
-    print(a+b)
+def functionname(x, y):   # Have return value
+  return 0
 
-funcName(1,2) # call func
 
-def sumOfTwo(a,b=2): # if b is not given the b = 2 otherwise given value for b
-    print(a+b)
+def printHello():         # Have no Return Type
+  print('hello')
 
-sumOfTwo(2,6) # call func
+printHello() # Call the Func
+
+
+
+#----------------------------------------------- Function with Default Arguments
+
+def printInfo(name, age='N/A', cgpa='N/A'):
+  print(f'Name: {name}, Age: {age}, CGPA: {cgpa}')
+
+
+printInfo("Mr.Z", 35, 3.87)
+printInfo("Mr.Z", 35)
+printInfo("Mr.Z")
+
+# printInfo() 
+
+
+
+#------------------------------------------------------- Keyword/Named Arguments
+
+def printInfo(name, age, cgpa='N/A'):
+  print(f'Name: {name}, Age: {age}, CGPA: {cgpa}')
+
+
+printInfo(age=35, cgpa=3.87, name="Mr.Z") 
+printInfo(age=35, name="Mr.Z")
+
+# printInfo()
 
