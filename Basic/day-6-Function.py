@@ -17,6 +17,16 @@ from math import sqrt
 print(sqrt(25))
 
 
+# min/max Func 
+
+students = ['tashin', 'apu', 'emon', 'noman', 'mushi']
+
+print(max(students))
+print(min(students))
+
+
+
+
 #-------------------------------------------------------------------> User Defined Func
 
 def functionname(x, y):   # Have return value
