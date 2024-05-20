@@ -13,4 +13,4 @@ print(a.shape)
 print(b.shape)
 
 r,c = b.shape
-print(r,c)
+print(r,c) 
