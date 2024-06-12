@@ -5,7 +5,6 @@
 
 ## Important
 -> Everything in Python is an object (refer)
--> 
 
 
 # Table of Contents
